@@ -1,0 +1,118 @@
+﻿{
+  "children": [
+    {
+      "text": "Welcome Page",
+      "iconCls": "x-fa fa-home",
+      "rowCls": "nav-tree-badge nav-tree-badge-new",
+      "viewType": "welcome",
+      "routeId": "welcome",
+      "leaf": true
+    },
+    {
+      "text": "Employee",
+      "iconCls": "x-fa fa-user",
+      "expanded": false,
+      "selectable": false,
+      "visible": false,
+      "children": [
+        {
+          "text": "Security Form",
+          "qtip": "Pre-Screen Security Form",
+          "iconCls": "x-fa fa-list",
+          "viewType": "employeesecurityform",
+          "routeId": "employeesecurityform",
+          "leaf": true
+        },
+        {
+          "text": "Veteran Form",
+          "iconCls": "x-fa fa-edit",
+          "viewType": "veteranform",
+          "routeId": "veteranform",
+          "leaf": true
+        },
+        {
+          "text": "Disability Form",
+          "iconCls": "x-fa fa-file-alt",
+          "viewType": "disabilityform",
+          "routeId": "disabilityform",
+          "leaf": true
+        },
+         {
+          "text": "Post Offer Form",
+          "iconCls": "x-fa fa-file-alt",
+          "viewType": "veteranstatuspostoffer",
+          "routeId": "veteranstatuspostoffer",
+          "leaf": true
+        } 
+      ]
+    },
+    {
+      "text": "HR Portal",
+      "iconCls": "x-fa fa-user",
+      "expanded": false,
+      "selectable": false,
+      "children": [
+            {
+              "text": "Disability Forms",
+              "iconCls": "x-fa fa-users",
+              "viewType": "admindisability",
+              "routeId": "admindisability",
+              "leaf": true
+            },
+        {
+          "text": "Veteran Forms",
+          "iconCls": "x-fa fa-users",
+          "viewType": "adminveteran",
+          "routeId": "adminveteran",
+          "leaf": true
+        },
+        {
+              "text": "Post Offer Form",
+              "iconCls": "x-fa fa-users",
+              "viewType": "adminveteranstatuspostoffer",
+              "routeId": "adminveteranstatuspostoffer",
+              "leaf": true
+            }
+      ]
+    },   
+    {
+      "text": "Authentication",
+      "iconCls": "x-fa fa-key",
+      "expanded": false,
+      "selectable": false,
+      "visible":  false,
+      "children": [
+        {
+          "text": "Login",
+          "iconCls": "x-fa fa-check",
+          "viewType": "login",
+          "routeId": "login",
+          "leaf": true
+        },
+        {
+          "text": "Register",
+          "iconCls": "x-fa fa-pencil-square-o",
+          "viewType": "register",
+          "routeId": "register",
+          "leaf": true
+        },
+        {
+          "text": "Password Reset",
+          "iconCls": "x-fa fa-lightbulb-o",
+          "viewType": "passwordreset",
+          "routeId": "passwordreset",
+          "leaf": true
+        },
+        {
+          "text": "Change Password",
+          "iconCls": "x-fa fa-lightbulb-o",
+          "viewType": "changepassword",
+          "routeId": "changepassword",
+          "leaf": true
+        }
+      ]
+    }
+  ]
+    }
+
+

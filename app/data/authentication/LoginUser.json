@@ -1,0 +1,10 @@
+﻿{
+  "Url": "http://localhost/DelDotWebServices/api/Account/GetUserByID?id=e95f86f0-baef-4179-89a4-211356666b79",
+  "Id": "e95f86f0-baef-4179-89a4-211356666b79",
+  "UserName": "lu.kang@kci.com",
+  "Email": "lu.kang@kci.com",
+  "EmailConfirmed": true,
+  "Roles": [ 0 ],
+  "Claims": [ 0 ]
+}
+

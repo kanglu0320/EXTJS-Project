@@ -1,0 +1,59 @@
+﻿{
+  "children": [
+    {
+      "text": "Welcome Page",
+      "iconCls": "x-fa fa-home",
+      "rowCls": "nav-tree-badge nav-tree-badge-new",
+      "viewType": "welcome",
+      "routeId": "welcome",
+      "leaf": true
+    },  
+    {
+      "text": "All Users",
+      "iconCls": "x-fa fa-users",
+      "rowCls": "nav-tree-badge nav-tree-badge-new",
+      "viewType": "admin",
+      "routeId": "admin",
+      "leaf": true
+    },
+    {
+      "text": "Authentication",
+      "iconCls": "x-fa fa-key",
+      "expanded": false,
+      "selectable": false,
+      "visible":  true,
+      "children": [
+        {
+          "text": "Login",
+          "iconCls": "x-fa fa-check",
+          "viewType": "login",
+          "routeId": "login",
+          "leaf": true
+        },
+        {
+          "text": "Register",
+          "iconCls": "x-fa fa-pencil-square-o",
+          "viewType": "register",
+          "routeId": "register",
+          "leaf": true
+        },
+        {
+          "text": "Password Reset",
+          "iconCls": "x-fa fa-lightbulb-o",
+          "viewType": "passwordreset",
+          "routeId": "passwordreset",
+          "leaf": true
+        },
+        {
+          "text": "Change Password",
+          "iconCls": "x-fa fa-lightbulb-o",
+          "viewType": "changepassword",
+          "routeId": "changepassword",
+          "leaf": true
+        }
+      ]
+    }
+  ]
+    }
+
+

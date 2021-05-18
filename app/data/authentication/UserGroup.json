@@ -1,0 +1,30 @@
+﻿{
+  "data": [
+    {
+      "value": "SuperAdmin"
+    },
+    {
+      "value": "ITAdmin"
+    },
+    {
+      "value": "Admin"
+    },
+    {
+      "value": "Security"
+    },
+    {
+      "value": "HR"
+    },
+    {
+      "value": "Employee"
+    },
+    {
+      "value": "Candidates"
+    }
+  ]
+}
+
+
+
+
+
